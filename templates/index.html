@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Junta de Acción Comunal</title>
+  <style>
+    :root { --verde:#1d7a43; --verde-oscuro:#14532d; --claro:#f0f8f1; --dorado:#e4b84b; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#203027; background:#f7faf7; line-height:1.6; }
+    header { background:linear-gradient(120deg,var(--verde-oscuro),var(--verde)); color:white; padding:48px 20px; text-align:center; }
+    header .tag { display:inline-block; padding:5px 12px; border:1px solid #ffffff80; border-radius:20px; font-size:.9rem; }
+    header h1 { margin:16px 0 8px; font-size:clamp(2rem,5vw,3.3rem); }
+    header p { max-width:720px; margin:0 auto; }
+    nav { background:#fff; padding:13px; text-align:center; box-shadow:0 2px 8px #00000010; position:sticky; top:0; }
+    nav a { color:var(--verde-oscuro); margin:0 12px; text-decoration:none; font-weight:bold; }
+    main { max-width:1050px; padding:28px 18px 55px; margin:auto; }
+    section { margin:24px 0; }
+    h2 { color:var(--verde-oscuro); }
+    .intro { background:white; border-left:5px solid var(--dorado); border-radius:10px; padding:22px; box-shadow:0 4px 18px #183b2410; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+    .card { background:white; border-radius:12px; padding:20px; border:1px solid #e2eee4; box-shadow:0 4px 14px #183b240b; }
+    .card .emoji { font-size:2rem; }
+    .notice { background:var(--claro); padding:18px; border-radius:10px; }
+    footer { text-align:center; background:#123d25; color:white; padding:22px; }
+    .small { font-size:.92rem; color:#506457; }
+    @media(max-width:520px) { nav a { display:inline-block; margin:4px 8px; } header { padding:35px 18px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">Participación · Unión · Comunidad</span>
+    <h1>Junta de Acción Comunal</h1>
+    <p>Trabajamos unidos para identificar necesidades, proponer soluciones y mejorar la calidad de vida de nuestro barrio.</p>
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#actividades">Actividades</a>
+    <a href="#participar">Participa</a>
+  </nav>
+  <main>
+    <section id="inicio" class="intro">
+      <h2>¿Qué es una Junta de Acción Comunal?</h2>
+      <p>Es una organización comunitaria integrada por vecinos que se reúnen voluntariamente para promover el desarrollo social, la convivencia y el bienestar colectivo. La junta sirve como puente entre la comunidad y las instituciones.</p>
+      <p class="small">Esta página es una demostración académica. Personaliza el nombre del barrio, los contactos y las actividades con información real autorizada.</p>
+    </section>
+    <section id="objetivos">
+      <h2>Nuestros objetivos</h2>
+      <div class="cards">
+        <article class="card"><div class="emoji">🤝</div><h3>Unir a la comunidad</h3><p>Promover la participación, el respeto y el trabajo colaborativo entre vecinos.</p></article>
+        <article class="card"><div class="emoji">🌱</div><h3>Mejorar el entorno</h3><p>Impulsar jornadas de limpieza, cuidado de zonas verdes y recuperación de espacios comunes.</p></article>
+        <article class="card"><div class="emoji">💬</div><h3>Escuchar propuestas</h3><p>Recoger ideas y necesidades para construir planes comunitarios.</p></article>
+      </div>
+    </section>
+    <section id="actividades">
+      <h2>Actividades comunitarias</h2>
+      <div class="cards">
+        <article class="card"><h3>Jornadas ambientales</h3><p>Actividades de limpieza, reciclaje y cuidado de parques.</p></article>
+        <article class="card"><h3>Encuentros vecinales</h3><p>Reuniones para conversar sobre necesidades y posibles soluciones.</p></article>
+        <article class="card"><h3>Eventos culturales</h3><p>Espacios para compartir talentos, tradiciones y actividades recreativas.</p></article>
+      </div>
+    </section>
+    <section id="participar" class="notice">
+      <h2>¿Cómo puedes participar?</h2>
+      <p>Asiste a las reuniones comunitarias, comparte propuestas respetuosas y participa en las actividades del barrio. Para publicar información real, agrega aquí el horario de reunión y un medio de contacto oficial.</p>
+      <p><strong>Contacto:</strong> [Agregar correo o teléfono autorizado]</p>
+    </section>
+  </main>
+  <footer>
+    <strong>Junta de Acción Comunal</strong><br>
+    <span>La comunidad crece cuando trabajamos unidos.</span>
+  </footer>
+</body>
+</html>
